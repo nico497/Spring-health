@@ -1,0 +1,588 @@
+{
+ "meta": {
+  "title": "Bottom-of-funnel content tracker",
+  "niche": "Employer-sponsored mental health and wellbeing benefits for the workplace",
+  "you": "Spring Health",
+  "generated": "2026-10-20T01:26:56+00:00",
+  "state_updated": "2026-10-20T01:20:12+00:00",
+  "repo": "nico497/Spring-health"
+ },
+ "types": [
+  [
+   "vs_you",
+   "Us vs. them"
+  ],
+  [
+   "alt",
+   "Alternatives"
+  ],
+  [
+   "switch",
+   "Switching and migration"
+  ],
+  [
+   "pricing",
+   "Rival pricing breakdowns"
+  ],
+  [
+   "vs_rivals",
+   "Rival vs. rival"
+  ],
+  [
+   "best",
+   "Best-of and roundups"
+  ],
+  [
+   "case",
+   "Case and customer stories"
+  ]
+ ],
+ "sites": [
+  {
+   "name": "Spring Health",
+   "tracked": 761,
+   "considered": 703,
+   "own_pricing": null,
+   "hubs": [
+    "https://www.springhealth.com/case-studies",
+    "https://www.springhealth.com/customers",
+    "https://www.springhealth.com/learn/customer-stories",
+    "https://www.springhealth.com/reviews",
+    "https://www.springhealth.com/categories-blogs-filter/customer-stories"
+   ]
+  },
+  {
+   "name": "Lyra Health",
+   "tracked": 800,
+   "considered": 763,
+   "own_pricing": null,
+   "hubs": [
+    "https://www.lyrahealth.com/customer-stories/"
+   ]
+  },
+  {
+   "name": "Modern Health",
+   "tracked": 363,
+   "considered": 56,
+   "own_pricing": null,
+   "hubs": [
+    "https://www.modernhealth.com/case-studies"
+   ]
+  },
+  {
+   "name": "Headspace for Work",
+   "tracked": 0,
+   "considered": 0,
+   "own_pricing": null,
+   "hubs": []
+  },
+  {
+   "name": "Calm Business",
+   "tracked": 0,
+   "considered": 0,
+   "own_pricing": null,
+   "hubs": []
+  },
+  {
+   "name": "Talkspace for Business",
+   "tracked": 346,
+   "considered": 328,
+   "own_pricing": null,
+   "hubs": []
+  },
+  {
+   "name": "TELUS Health (LifeWorks)",
+   "tracked": 1180,
+   "considered": 595,
+   "own_pricing": null,
+   "hubs": []
+  }
+ ],
+ "vendors": [
+  "Lyra Health",
+  "Modern Health",
+  "Headspace for Work",
+  "Calm Business",
+  "Talkspace for Business",
+  "TELUS Health (LifeWorks)",
+  "Spring Health",
+  "Ginger",
+  "Koa Health",
+  "SonderMind",
+  "Workplace Options",
+  "Grow Therapy",
+  "Big Health",
+  "Ulliance",
+  "ComPsych",
+  "Optum EAP"
+ ],
+ "excluded": {
+  "webinars, glossary, events and category pages": 265,
+  "templated pages": 547,
+  "translated pages": 193
+ },
+ "pages": [
+  {
+   "site": "Spring Health",
+   "url": "https://www.springhealth.com/customers/at-carmax-showing-up-for-the-team-starts-with-showing-up-for-yourself",
+   "path": "/customers/at-carmax-showing-up-for-the-team-starts-with-showing-up-for-yourself",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Spring Health",
+   "url": "https://www.springhealth.com/customers/docusign",
+   "path": "/customers/docusign",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Spring Health",
+   "url": "https://www.springhealth.com/customers/education",
+   "path": "/customers/education",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Spring Health",
+   "url": "https://www.springhealth.com/customers/finance",
+   "path": "/customers/finance",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Spring Health",
+   "url": "https://www.springhealth.com/customers/general-mills",
+   "path": "/customers/general-mills",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Spring Health",
+   "url": "https://www.springhealth.com/customers/hearst",
+   "path": "/customers/hearst",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Spring Health",
+   "url": "https://www.springhealth.com/customers/law",
+   "path": "/customers/law",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Spring Health",
+   "url": "https://www.springhealth.com/customers/manufacturing",
+   "path": "/customers/manufacturing",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Spring Health",
+   "url": "https://www.springhealth.com/customers/moda-health",
+   "path": "/customers/moda-health",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Spring Health",
+   "url": "https://www.springhealth.com/customers/nuvancehealth",
+   "path": "/customers/nuvancehealth",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Spring Health",
+   "url": "https://www.springhealth.com/customers/retail",
+   "path": "/customers/retail",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Spring Health",
+   "url": "https://www.springhealth.com/customers/tech",
+   "path": "/customers/tech",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Spring Health",
+   "url": "https://www.springhealth.com/customers/wellstar",
+   "path": "/customers/wellstar",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/blog/aerospace-case-study/",
+   "path": "/blog/aerospace-case-study",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/blog/zoom-lyra-case-study/",
+   "path": "/blog/zoom-lyra-case-study",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/customer-stories/brown-brothers-harriman/",
+   "path": "/customer-stories/brown-brothers-harriman",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/customer-stories/carlisle/",
+   "path": "/customer-stories/carlisle",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/customer-stories/cummins/",
+   "path": "/customer-stories/cummins",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/customer-stories/emi-health/",
+   "path": "/customer-stories/emi-health",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/customer-stories/firstbank/",
+   "path": "/customer-stories/firstbank",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/customer-stories/genentech/",
+   "path": "/customer-stories/genentech",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/customer-stories/hexion/",
+   "path": "/customer-stories/hexion",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/customer-stories/inmar/",
+   "path": "/customer-stories/inmar",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/customer-stories/inova/",
+   "path": "/customer-stories/inova",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/customer-stories/je-dunn/",
+   "path": "/customer-stories/je-dunn",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/customer-stories/kohler/",
+   "path": "/customer-stories/kohler",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/customer-stories/lululemon/",
+   "path": "/customer-stories/lululemon",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/customer-stories/mccarthy/",
+   "path": "/customer-stories/mccarthy",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/customer-stories/morgan-stanley/",
+   "path": "/customer-stories/morgan-stanley",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/customer-stories/peraton/",
+   "path": "/customer-stories/peraton",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/customer-stories/phoenix-contact/",
+   "path": "/customer-stories/phoenix-contact",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/customer-stories/salesforce/",
+   "path": "/customer-stories/salesforce",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/customer-stories/samsung/",
+   "path": "/customer-stories/samsung",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/customer-stories/school-district-of-philadelphia/",
+   "path": "/customer-stories/school-district-of-philadelphia",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/customer-stories/sheppard-mullin/",
+   "path": "/customer-stories/sheppard-mullin",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/customer-stories/starbucks/",
+   "path": "/customer-stories/starbucks",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/customer-stories/survey-monkey/",
+   "path": "/customer-stories/survey-monkey",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/customer-stories/td-bank/",
+   "path": "/customer-stories/td-bank",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/customer-stories/treasury-americas/",
+   "path": "/customer-stories/treasury-americas",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/customer-stories/vca/",
+   "path": "/customer-stories/vca",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/customer-stories/wakemed/",
+   "path": "/customer-stories/wakemed",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/resources/case-study/caring-for-members-with-severe-mental-health-needs/",
+   "path": "/resources/case-study/caring-for-members-with-severe-mental-health-needs",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/resources/case-study/customer-stories-bc/",
+   "path": "/resources/case-study/customer-stories-bc",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Modern Health",
+   "url": "https://www.modernhealth.com/individual-customer-stories/nextdoor",
+   "path": "/individual-customer-stories/nextdoor",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Talkspace for Business",
+   "url": "https://business.talkspace.com/articles/case-study-delivering-personalized-care-and-positive-change-during-the-2020-pandemic",
+   "path": "/articles/case-study-delivering-personalized-care-and-positive-change-during-the-2020-pandemic",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "Talkspace for Business",
+   "url": "https://business.talkspace.com/articles/case-study-mental-health-support-for-uky-wildcats",
+   "path": "/articles/case-study-mental-health-support-for-uky-wildcats",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "TELUS Health (LifeWorks)",
+   "url": "https://www.telushealth.com/en-ar/resources/case-study-starbucks-mexico",
+   "path": "/en-ar/resources/case-study-starbucks-mexico",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "TELUS Health (LifeWorks)",
+   "url": "https://www.telushealth.com/en-br/resources/case-study-starbucks-mexico",
+   "path": "/en-br/resources/case-study-starbucks-mexico",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "TELUS Health (LifeWorks)",
+   "url": "https://www.telushealth.com/en-cl/resources/case-study-starbucks-mexico",
+   "path": "/en-cl/resources/case-study-starbucks-mexico",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "TELUS Health (LifeWorks)",
+   "url": "https://www.telushealth.com/en-co/resources/case-study-starbucks-mexico",
+   "path": "/en-co/resources/case-study-starbucks-mexico",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "TELUS Health (LifeWorks)",
+   "url": "https://www.telushealth.com/en-cr/resources/case-study-starbucks-mexico",
+   "path": "/en-cr/resources/case-study-starbucks-mexico",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "TELUS Health (LifeWorks)",
+   "url": "https://www.telushealth.com/en-de/resources/case-study-starbucks-mexico",
+   "path": "/en-de/resources/case-study-starbucks-mexico",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "TELUS Health (LifeWorks)",
+   "url": "https://www.telushealth.com/en-ec/resources/case-study-starbucks-mexico",
+   "path": "/en-ec/resources/case-study-starbucks-mexico",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "TELUS Health (LifeWorks)",
+   "url": "https://www.telushealth.com/en-es/resources/case-study-starbucks-mexico",
+   "path": "/en-es/resources/case-study-starbucks-mexico",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "TELUS Health (LifeWorks)",
+   "url": "https://www.telushealth.com/en-fr/resources/case-study-starbucks-mexico",
+   "path": "/en-fr/resources/case-study-starbucks-mexico",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "TELUS Health (LifeWorks)",
+   "url": "https://www.telushealth.com/en-ie/resources/case-study-starbucks-mexico",
+   "path": "/en-ie/resources/case-study-starbucks-mexico",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "TELUS Health (LifeWorks)",
+   "url": "https://www.telushealth.com/en-it/resources/case-study-starbucks-mexico",
+   "path": "/en-it/resources/case-study-starbucks-mexico",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "TELUS Health (LifeWorks)",
+   "url": "https://www.telushealth.com/en-mx/resources/case-study-starbucks-mexico",
+   "path": "/en-mx/resources/case-study-starbucks-mexico",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "TELUS Health (LifeWorks)",
+   "url": "https://www.telushealth.com/en-nl/resources/case-study-starbucks-mexico",
+   "path": "/en-nl/resources/case-study-starbucks-mexico",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "TELUS Health (LifeWorks)",
+   "url": "https://www.telushealth.com/en-nz/resources/case-study-starbucks-mexico",
+   "path": "/en-nz/resources/case-study-starbucks-mexico",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "TELUS Health (LifeWorks)",
+   "url": "https://www.telushealth.com/en-pe/resources/case-study-starbucks-mexico",
+   "path": "/en-pe/resources/case-study-starbucks-mexico",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "TELUS Health (LifeWorks)",
+   "url": "https://www.telushealth.com/en-ph/resources/case-study-starbucks-mexico",
+   "path": "/en-ph/resources/case-study-starbucks-mexico",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "TELUS Health (LifeWorks)",
+   "url": "https://www.telushealth.com/en-sg/resources/case-study-starbucks-mexico",
+   "path": "/en-sg/resources/case-study-starbucks-mexico",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "TELUS Health (LifeWorks)",
+   "url": "https://www.telushealth.com/en-us/resources/case-study-starbucks-mexico",
+   "path": "/en-us/resources/case-study-starbucks-mexico",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "TELUS Health (LifeWorks)",
+   "url": "https://www.telushealth.com/en-us/resources/premium/telus-well-being-strategy-case-study",
+   "path": "/en-us/resources/premium/telus-well-being-strategy-case-study",
+   "type": "case",
+   "targets": []
+  },
+  {
+   "site": "TELUS Health (LifeWorks)",
+   "url": "https://www.telushealth.com/en/resources/case-study-starbucks-mexico",
+   "path": "/en/resources/case-study-starbucks-mexico",
+   "type": "case",
+   "targets": []
+  }
+ ]
+}

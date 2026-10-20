@@ -1,0 +1,52 @@
+{
+ "weeks": [
+  {
+   "week": "2026-W43",
+   "date": "2026-10-20T01:20:12+00:00",
+   "sites": {
+    "Spring Health": {
+     "new": 0,
+     "updated": 1,
+     "removed": 0,
+     "pages": 761
+    },
+    "Lyra Health": {
+     "new": 4,
+     "updated": 6,
+     "removed": 0,
+     "pages": 800
+    },
+    "Modern Health": {
+     "new": 0,
+     "updated": 0,
+     "removed": 0,
+     "pages": 208
+    },
+    "Headspace for Work": {
+     "new": 0,
+     "updated": 0,
+     "removed": 0,
+     "pages": 0
+    },
+    "Calm Business": {
+     "new": 0,
+     "updated": 0,
+     "removed": 0,
+     "pages": 0
+    },
+    "Talkspace for Business": {
+     "new": 0,
+     "updated": 0,
+     "removed": 0,
+     "pages": 346
+    },
+    "TELUS Health (LifeWorks)": {
+     "new": 0,
+     "updated": 0,
+     "removed": 0,
+     "pages": 788
+    }
+   }
+  }
+ ]
+}
