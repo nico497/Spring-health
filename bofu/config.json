@@ -1,0 +1,53 @@
+{
+  "title": "Bottom-of-funnel content tracker",
+  "niche": "Employer-sponsored mental health and wellbeing benefits for the workplace",
+  "you": "Spring Health",
+  "competitors": [
+    "Lyra Health",
+    "Modern Health",
+    "Headspace for Work",
+    "Calm Business",
+    "Talkspace for Business",
+    "TELUS Health (LifeWorks)"
+  ],
+  "vendors": {
+    "Lyra Health": "lyra ?health",
+    "Modern Health": "modern ?health",
+    "Headspace for Work": "headspace",
+    "Calm Business": "\\bcalm\\b",
+    "Talkspace for Business": "talkspace",
+    "TELUS Health (LifeWorks)": "telus health|lifeworks",
+    "Spring Health": "spring ?health",
+    "Ginger": "\\bginger\\b(?! ?ale)",
+    "Koa Health": "koa health",
+    "SonderMind": "sondermind",
+    "Workplace Options": "workplace options",
+    "Grow Therapy": "grow therapy",
+    "Big Health": "big health",
+    "Ulliance": "ulliance",
+    "ComPsych": "compsych",
+    "Optum EAP": "optum (eap|behavioral)"
+  },
+  "audiences": [
+    ["Employee assistance programs", "\\beap\\b|employee assistance"],
+    ["Mental health benefits", "mental health benefit"],
+    ["Therapy and counseling access", "therapy access|counseling|teletherapy"],
+    ["Workplace wellbeing", "workplace wellbeing|employee wellbeing"],
+    ["Burnout and stress", "burnout|workplace stress"],
+    ["HR and benefits leaders", "hr leader|benefits leader|people team"],
+    ["Return on investment and outcomes", "\\broi\\b|clinical outcomes|cost savings"],
+    ["Manager training", "manager training|people manager"],
+    ["Substance use and recovery support", "substance use|recovery support"],
+    ["Coaching", "coaching"],
+    ["Medication management and psychiatry", "psychiatry|medication management"],
+    ["Diversity, equity and inclusion", "\\bdei\\b|diversity.*inclusion"],
+    ["Open enrollment", "open enrollment|benefits enrollment"],
+    ["Data and measurement", "measurement.?based care|outcomes data|analytics"],
+    ["Family and dependent support", "dependent support|family benefit|teen mental health"],
+    ["Health plan and insurer partnerships", "health plan partner|insurer partnership|carrier"],
+    ["Pricing and plans", "pricing|per employee per month|\\bpepm\\b"],
+    ["Comparisons and alternatives", "alternative|vs\\.|comparison"],
+    ["Customer stories and case studies", "case study|customer story"],
+    ["Product updates and releases", "product update|new feature|launch"]
+  ]
+}
