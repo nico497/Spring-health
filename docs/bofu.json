@@ -3,7 +3,7 @@
   "title": "Bottom-of-funnel content tracker",
   "niche": "Employer-sponsored mental health and wellbeing benefits for the workplace",
   "you": "Spring Health",
-  "generated": "2026-10-20T01:26:56+00:00",
+  "generated": "2026-10-26T13:08:40+00:00",
   "state_updated": "2026-10-20T01:20:12+00:00",
   "repo": "nico497/Spring-health"
  },
@@ -53,7 +53,7 @@
   },
   {
    "name": "Lyra Health",
-   "tracked": 800,
+   "tracked": 801,
    "considered": 763,
    "own_pricing": null,
    "hubs": [
@@ -117,7 +117,7 @@
   "Optum EAP"
  ],
  "excluded": {
-  "webinars, glossary, events and category pages": 265,
+  "webinars, glossary, events and category pages": 266,
   "templated pages": 547,
   "translated pages": 193
  },

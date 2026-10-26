@@ -2,16 +2,16 @@
  "meta": {
   "title": "Competitor Radar",
   "niche": "Employer-sponsored mental health and wellbeing benefits for the workplace",
-  "updated": "2026-10-20T01:20:12+00:00",
+  "updated": "2026-10-26T13:05:13+00:00",
   "window_days": 30,
   "repo": "nico497/Spring-health",
   "first_run": true,
   "errors": [],
-  "pending": 564,
+  "pending": 445,
   "analysis_stale": false,
   "per_run": 200,
   "tracking_since": "2026-10-20T01:20:12+00:00",
-  "tracking_days": 0
+  "tracking_days": 6
  },
  "types": [
   [
@@ -48,98 +48,101 @@
   ]
  ],
  "analysis": {
-  "summary": "Lyra is the only rival publishing at scale, built around manager coaching and AI. Spring Health was almost quiet in the last 30 days, with 1 update and no new pages.",
+  "summary": "Lyra Health is the only rival publishing at scale, with 14 new pages and 11 updates. Spring Health made no new pages in 30 days. It updated 3 old pages.",
   "points": [
    {
-    "text": "Lyra added 14 new pages and updated 10, while Spring Health added none and updated 1. [Lyra Health]",
-    "names": [
-     "Spring Health"
-    ]
-   },
-   {
-    "text": "Lyra is pushing Manager Coaching with launch news, a landing page and refreshed guides, which looks like a product push.",
+    "text": "Lyra is pushing manager coaching hard, with launch news, a landing page and several guides, all updated or new.",
     "names": [
      "Lyra Health"
     ]
    },
    {
-    "text": "Talkspace and TELUS each added only 4 pages, so they are weak signals; Modern Health and Calm Business show nothing new. [Talkspace for Business] [TELUS Health (LifeWorks)] [Modern Health]",
+    "text": "Spring Health's 2 listed pages are consumer-style therapy guides. Lyra aims at employers with research, case studies and a customer spotlight.",
     "names": [
-     "Calm Business"
+     "Spring Health",
+     "Lyra Health"
+    ]
+   },
+   {
+    "text": "Talkspace and TELUS Health added 4 pages each, but on narrow topics. Talkspace targets health plans. TELUS's pages are one Spanish page repeated.",
+    "names": [
+     "Talkspace for Business",
+     "TELUS Health (LifeWorks)"
     ]
    }
   ],
   "plays": {
    "Spring Health": {
-    "play": "Almost silent: 1 updated how-to on starting therapy, plus a 38-page bulk edit.",
-    "aimed": "People new to therapy"
+    "play": "No new pages. Updated 2 therapy and anxiety how-tos; 77 pages edited in bulk on 2026-10-16.",
+    "aimed": "Individuals learning about therapy"
    },
    "Lyra Health": {
-    "play": "Pushes Manager Coaching with launch news, landing page and refreshed guides, plus AI and research pieces.",
-    "aimed": "HR leaders and people managers"
+    "play": "Manager coaching push, plus research, case studies, financial wellness and seasonal toolkits, mostly new or refreshed.",
+    "aimed": "HR leaders and benefits buyers"
    },
    "Modern Health": {
-    "play": "No new or updated pages found; 155 templated /post/ pages sit outside the counts.",
+    "play": "No new or updated pages found. Has 155 templated /post/ pages.",
     "aimed": "Unclear from the data"
    },
    "Calm Business": {
-    "play": "No pages found in the data, so there is no play to read.",
+    "play": "No pages found on the site data. Nothing to read.",
     "aimed": "Unclear from the data"
    },
    "Talkspace for Business": {
-    "play": "Four new guides on behavioral healthcare services, including one comparison page.",
+    "play": "Four new guides on behavioral healthcare, managed care and women's programs.",
     "aimed": "Health plans and payers"
    },
    "TELUS Health (LifeWorks)": {
-    "play": "Four new Spanish pages on healthy habits for team wellbeing, all with the same title.",
-    "aimed": "Spanish-speaking managers and HR teams"
+    "play": "Four new Spanish pages on healthy team habits. Large templated /solutions/ section.",
+    "aimed": "Spanish-speaking HR and team leads"
    }
   },
   "shared": [
    {
-    "title": "Guide-style explainers",
-    "text": "Lyra (11 how-tos), TELUS (4) and Talkspace (3) lean on explainer pages. Spring Health shows only 1, so it is thin in this format.",
+    "title": "Light, narrow publishing",
+    "text": "Talkspace and TELUS Health each added 4 pages and no updates. Both are small batches on one theme, so this is a weak signal, not a strategy. Spring Health can outpace them.",
     "names": [
-     "Lyra Health",
      "Talkspace for Business",
+     "TELUS Health (LifeWorks)"
+    ]
+   },
+   {
+    "title": "Templated page sections",
+    "text": "Modern Health (/post/, 155 pages) and TELUS Health (/solutions/, 246 pages) rely on large templated areas. Their size comes from templates, not individual articles.",
+    "names": [
+     "Modern Health",
      "TELUS Health (LifeWorks)"
     ]
    }
   ],
   "gaps": [
    {
-    "title": "Vendor buyer's guide",
-    "text": "Only Talkspace has a comparison page, and it targets health plans. No one gives HR leaders a plain way to compare workplace mental health vendors."
+    "title": "Employer proof and case studies",
+    "text": "Only Lyra shows customer stories (2) and original research (1). Spring Health can publish employer outcome stories for HR buyers."
    },
    {
-    "title": "Customer proof stories",
-    "text": "Only Lyra published case studies (3 this month). Spring Health could show employer results and benefits-leader voices."
+    "title": "Manager support content",
+    "text": "Lyra is building a manager coaching cluster. Spring Health has nothing listed here, so it can take its own angle on manager burnout."
    },
    {
-    "title": "Original research",
-    "text": "Lyra has just 1 research piece. Nobody else shows research, so Spring Health could own fresh data on workplace mental health."
+    "title": "Vendor comparison guides for buyers",
+    "text": "Only Talkspace has one comparison page, aimed at health plans. Nobody covers how HR leaders should evaluate workplace mental health vendors."
    }
   ],
-  "versus": {
-   "Lyra Health": "Lyra publishes far more, with a clear manager-coaching theme; Spring Health added no new pages and updated 1.",
-   "Modern Health": "No page data to compare; its 155 /post/ pages are templated, while Spring Health's visible content is one therapy explainer.",
-   "Calm Business": "The data shows no pages, so there is nothing to compare with Spring Health's content.",
-   "Talkspace for Business": "Talkspace added 4 guides aimed at health plans and care delivery; Spring Health added none and shows an employee-facing therapy explainer.",
-   "TELUS Health (LifeWorks)": "TELUS added 4 Spanish healthy-habits pages with one repeated title; Spring Health added none and has a single English explainer in view."
-  }
+  "versus": {}
  },
  "sites": [
   {
    "name": "Spring Health",
    "site": "https://www.springhealth.com",
    "you": true,
-   "n": 1,
+   "n": 3,
    "site_pages": 761,
-   "n_prev": 75,
-   "refreshed": 1,
+   "n_prev": 125,
+   "refreshed": 3,
    "mix": {
     "compare": 0,
-    "howto": 1,
+    "howto": 2,
     "list": 0,
     "research": 0,
     "case": 0,
@@ -148,24 +151,25 @@
     "landing": 0
    },
    "stages": {
-    "learning": 1,
+    "learning": 2,
     "comparing": 0,
     "buying": 0,
     "customers": 0
    },
    "topics": [
-    "starting therapy for the first time"
+    "starting therapy for the first time",
+    "cbt techniques for anxiety"
    ],
-   "unclassified": 421,
+   "unclassified": 319,
    "removed": 0,
    "removed_titles": [],
    "new": 0,
-   "updated": 1,
+   "updated": 3,
    "bulk": [
     {
      "type": "edit",
      "day": "2026-10-16",
-     "pages": 38
+     "pages": 77
     }
    ],
    "programmatic": [],
@@ -176,31 +180,31 @@
    "pages": 761,
    "undated": 0,
    "new_urls": 0,
-   "play": "Almost silent: 1 updated how-to on starting therapy, plus a 38-page bulk edit.",
-   "aimed": "People new to therapy"
+   "play": "No new pages. Updated 2 therapy and anxiety how-tos; 77 pages edited in bulk on 2026-10-16.",
+   "aimed": "Individuals learning about therapy"
   },
   {
    "name": "Lyra Health",
    "site": "https://www.lyrahealth.com",
    "you": false,
-   "n": 24,
-   "site_pages": 800,
-   "n_prev": 66,
-   "refreshed": 10,
+   "n": 25,
+   "site_pages": 801,
+   "n_prev": 37,
+   "refreshed": 11,
    "mix": {
     "compare": 0,
     "howto": 11,
     "list": 0,
     "research": 1,
-    "case": 3,
-    "opinion": 2,
+    "case": 2,
+    "opinion": 3,
     "news": 2,
     "landing": 5
    },
    "stages": {
     "learning": 14,
-    "comparing": 5,
-    "buying": 4,
+    "comparing": 6,
+    "buying": 3,
     "customers": 1
    },
    "topics": [
@@ -210,22 +214,22 @@
     "peer support programs first responders",
     "workforce mental health business impact"
    ],
-   "unclassified": 2,
+   "unclassified": 1,
    "removed": 0,
    "removed_titles": [],
    "new": 14,
-   "updated": 10,
+   "updated": 11,
    "bulk": [],
    "programmatic": [],
    "ok": true,
    "error": null,
    "method": "sitemap",
    "url": "https://www.lyrahealth.com/sitemap.xml",
-   "pages": 800,
+   "pages": 801,
    "undated": 0,
-   "new_urls": 0,
-   "play": "Pushes Manager Coaching with launch news, landing page and refreshed guides, plus AI and research pieces.",
-   "aimed": "HR leaders and people managers"
+   "new_urls": 1,
+   "play": "Manager coaching push, plus research, case studies, financial wellness and seasonal toolkits, mostly new or refreshed.",
+   "aimed": "HR leaders and benefits buyers"
   },
   {
    "name": "Modern Health",
@@ -233,7 +237,7 @@
    "you": false,
    "n": 0,
    "site_pages": 363,
-   "n_prev": 1,
+   "n_prev": 2,
    "refreshed": 0,
    "mix": {
     "compare": 0,
@@ -272,7 +276,7 @@
    "pages": 363,
    "undated": 0,
    "new_urls": 0,
-   "play": "No new or updated pages found; 155 templated /post/ pages sit outside the counts.",
+   "play": "No new or updated pages found. Has 155 templated /post/ pages.",
    "aimed": "Unclear from the data"
   },
   {
@@ -353,7 +357,7 @@
    "pages": 0,
    "undated": 0,
    "new_urls": 0,
-   "play": "No pages found in the data, so there is no play to read.",
+   "play": "No pages found on the site data. Nothing to read.",
    "aimed": "Unclear from the data"
   },
   {
@@ -362,7 +366,7 @@
    "you": false,
    "n": 4,
    "site_pages": 346,
-   "n_prev": 13,
+   "n_prev": 14,
    "refreshed": 0,
    "mix": {
     "compare": 1,
@@ -400,7 +404,7 @@
    "pages": 346,
    "undated": 0,
    "new_urls": 0,
-   "play": "Four new guides on behavioral healthcare services, including one comparison page.",
+   "play": "Four new guides on behavioral healthcare, managed care and women's programs.",
    "aimed": "Health plans and payers"
   },
   {
@@ -458,11 +462,25 @@
    "pages": 1180,
    "undated": 1180,
    "new_urls": 0,
-   "play": "Four new Spanish pages on healthy habits for team wellbeing, all with the same title.",
-   "aimed": "Spanish-speaking managers and HR teams"
+   "play": "Four new Spanish pages on healthy team habits. Large templated /solutions/ section.",
+   "aimed": "Spanish-speaking HR and team leads"
   }
  ],
  "pages": [
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/webinar/bc-trends/",
+   "title": "The 2027 Playbook: Advising Clients When Mental Health Is a Performance Strategy",
+   "date": "2026-10-26T13:05:13+00:00",
+   "kind": "new",
+   "published": "2026-10-20T03:03:12+00:00",
+   "first_seen": "2026-10-26T13:05:13+00:00",
+   "type": "opinion",
+   "stage": "comparing",
+   "topic": "Mental health trends workforce strategy",
+   "search": "mental health benefits strategy 2027",
+   "why": "Positions Lyra as thought leader on workforce mental health ROI to benefit consultants evaluating vendors."
+  },
   {
    "site": "Spring Health",
    "url": "https://www.springhealth.com/business",
@@ -507,6 +525,20 @@
   },
   {
    "site": "Spring Health",
+   "url": "https://www.springhealth.com/blog/cbt-for-anxiety-techniques-exercises-and-worksheets-that-actually-work",
+   "title": "CBT for Anxiety Techniques: Exercises and Worksheets That Actually Work",
+   "date": "2026-10-17T00:01:11+00:00",
+   "kind": "updated",
+   "published": "2025-10-23T00:00:00+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "CBT techniques for anxiety",
+   "search": "CBT techniques for anxiety exercises",
+   "why": "Educates early-stage learners about anxiety treatment while positioning Spring Health as expert resource."
+  },
+  {
+   "site": "Spring Health",
    "url": "https://www.springhealth.com/blog/a-clinicians-guide-to-the-holidays",
    "title": "A Clinician’s Guide to the Holidays",
    "date": "2026-10-16T23:53:30+00:00",
@@ -518,6 +550,20 @@
    "topic": "Supporting clinicians during holidays",
    "search": "how to manage clinician stress holidays",
    "why": "Establishes Spring Health as expert advisor to mental health professionals year-round."
+  },
+  {
+   "site": "Spring Health",
+   "url": "https://www.springhealth.com/blog/creating-inclusive-workplaces-where-to-start",
+   "title": "Creating Inclusive Workplaces: Where to Start",
+   "date": "2026-10-16T23:53:30+00:00",
+   "kind": "bulk",
+   "published": "2022-08-22T00:00:00+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Creating inclusive workplaces mental health",
+   "search": "how to create inclusive workplace mental health",
+   "why": "Educates HR leaders on mental health inclusion strategy, positioning Spring Health as expert guide."
   },
   {
    "site": "Spring Health",
@@ -563,6 +609,90 @@
   },
   {
    "site": "Spring Health",
+   "url": "https://www.springhealth.com/blog/becoming-a-truly-queer-inclusive-workplace",
+   "title": "5 Ways to Become a Truly Queer-Inclusive Workplace",
+   "date": "2026-10-16T23:53:29+00:00",
+   "kind": "bulk",
+   "published": "2022-11-21T00:00:00+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "queer-inclusive workplace policies",
+   "search": "how to make workplace queer inclusive",
+   "why": "Demonstrates expertise in DEI and mental health, establishing thought leadership for HR leaders."
+  },
+  {
+   "site": "Spring Health",
+   "url": "https://www.springhealth.com/blog/bipolar-disorder-see-employees-through-new-lens",
+   "title": "Bipolar Disorder: How to See Your Employees Through a New Lens",
+   "date": "2026-10-16T23:53:29+00:00",
+   "kind": "bulk",
+   "published": "2023-03-30T00:00:00+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "case",
+   "stage": "learning",
+   "topic": "Supporting Bipolar employees at work",
+   "search": "how to support bipolar disorder employees",
+   "why": "Educates HR leaders on mental health conditions and employer support strategies."
+  },
+  {
+   "site": "Spring Health",
+   "url": "https://www.springhealth.com/blog/comprehensive-mental-health-supporting-wellness-across-the-spectrum",
+   "title": "Comprehensive Mental Health: Supporting Wellness Across the Spectrum",
+   "date": "2026-10-16T23:53:29+00:00",
+   "kind": "bulk",
+   "published": "2022-02-24T00:00:00+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Comprehensive mental health workplace support",
+   "search": "how to support employee mental health",
+   "why": "Educates HR leaders on holistic mental health strategies for their workforce."
+  },
+  {
+   "site": "Spring Health",
+   "url": "https://www.springhealth.com/blog/coping-with-grief-leader",
+   "title": "Coping with Grief When You're a Leader (and Have to Keep Leading)",
+   "date": "2026-10-16T23:53:29+00:00",
+   "kind": "bulk",
+   "published": "2022-08-26T00:00:00+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Coping with grief at work as leader",
+   "search": "how to cope with grief at work",
+   "why": "Positions Spring Health as mental health expert, builds trust with HR/leaders."
+  },
+  {
+   "site": "Spring Health",
+   "url": "https://www.springhealth.com/blog/cost-of-toxic-culture-how-to-fix-it",
+   "title": "The Cost of Toxic Culture—and How to Fix It",
+   "date": "2026-10-16T23:53:29+00:00",
+   "kind": "bulk",
+   "published": "2022-06-13T00:00:00+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "toxic workplace culture fix",
+   "search": "how to fix toxic work culture",
+   "why": "Educates HR leaders on workplace culture problems and mental health benefits as solutions."
+  },
+  {
+   "site": "Spring Health",
+   "url": "https://www.springhealth.com/blog/counseling-compact-mental-health-milestone",
+   "title": "The Counseling Compact: Celebrating This Mental Health Milestone",
+   "date": "2026-10-16T23:53:29+00:00",
+   "kind": "bulk",
+   "published": "2022-05-19T00:00:00+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "opinion",
+   "stage": "learning",
+   "topic": "Counseling Compact mental health licensing",
+   "search": "Counseling Compact mental health licensing",
+   "why": "Establishes thought leadership on mental health policy affecting employer benefits landscape."
+  },
+  {
+   "site": "Spring Health",
    "url": "https://www.springhealth.com/blog/a-therapists-take-on-griefs-impact-at-work",
    "title": "The Long Shadow of Loss: A Therapist’s Take on Grief’s Impact at Work and How to Offer Support",
    "date": "2026-10-16T23:52:32+00:00",
@@ -588,6 +718,20 @@
    "topic": "Mental health stigma in workplace",
    "search": "how to reduce mental health stigma work",
    "why": "Educates HR leaders on stigma and practical reduction strategies to build trust."
+  },
+  {
+   "site": "Spring Health",
+   "url": "https://www.springhealth.com/blog/behavioral-health-parity",
+   "title": "Ensuring Equitable Access and Compliance: Strategies for Health Plans in the New Era of Behavioral Health Parity",
+   "date": "2026-10-16T23:52:31+00:00",
+   "kind": "bulk",
+   "published": "2024-03-19T00:00:00+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "opinion",
+   "stage": "learning",
+   "topic": "Behavioral health parity compliance strategies",
+   "search": "mental health parity requirements health plans",
+   "why": "Educates health plans on upcoming parity regulations and Spring's compliance expertise."
   },
   {
    "site": "Spring Health",
@@ -619,6 +763,62 @@
   },
   {
    "site": "Spring Health",
+   "url": "https://www.springhealth.com/blog/allyship-at-work-how-to-advocate-for-aapi-employees",
+   "title": "Allyship at Work: How to Advocate for APIDA Employees",
+   "date": "2026-10-16T23:52:30+00:00",
+   "kind": "bulk",
+   "published": "2022-05-17T00:00:00+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Allyship AAPI employees workplace",
+   "search": "how to support AAPI employees at work",
+   "why": "Educates HR leaders on DEI practices and mental health support for underrepresented groups."
+  },
+  {
+   "site": "Spring Health",
+   "url": "https://www.springhealth.com/blog/beyond-aca-limitations-building-a-continuum-of-behavioral-health-care",
+   "title": "Beyond ACA Limitations: Building a Continuum of Behavioral Health Care",
+   "date": "2026-10-16T23:52:30+00:00",
+   "kind": "bulk",
+   "published": "2024-12-26T00:00:00+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "opinion",
+   "stage": "learning",
+   "topic": "Integrating EAPs with health plans behavioral health",
+   "search": "ACA compliance behavioral health care continuum",
+   "why": "Educates HR buyers on integrated care models and positions Spring Health as thought leader solving fragmentation."
+  },
+  {
+   "site": "Spring Health",
+   "url": "https://www.springhealth.com/blog/client-resistance",
+   "title": "Client Resistance Is a Natural Part of the Therapeutic Process. Here’s How You Can Work Through It.",
+   "date": "2026-10-16T23:52:30+00:00",
+   "kind": "bulk",
+   "published": "2024-06-14T00:00:00+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Managing client resistance in therapy",
+   "search": "how to manage client resistance therapy",
+   "why": "Positions Spring Health as expert resource for therapists managing common clinical challenges."
+  },
+  {
+   "site": "Spring Health",
+   "url": "https://www.springhealth.com/blog/cultivating-happiness-at-work",
+   "title": "Cultivating Happiness in the Workplace: A Therapist’s Perspective",
+   "date": "2026-10-16T23:52:30+00:00",
+   "kind": "bulk",
+   "published": "2022-09-20T00:00:00+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Cultivating happiness at work",
+   "search": "how to be happy at work",
+   "why": "Educates HR leaders and employees on workplace wellbeing to build brand authority."
+  },
+  {
+   "site": "Spring Health",
    "url": "https://www.springhealth.com/blog/3-ways-sleep-better-boost-productivity",
    "title": "3 Ways to Sleep Better and Get More Done at Work",
    "date": "2026-10-16T23:52:29+00:00",
@@ -630,6 +830,20 @@
    "topic": "Sleep quality workplace productivity",
    "search": "how to help employees sleep better",
    "why": "Educates HR leaders on sleep's impact on workplace wellness and performance."
+  },
+  {
+   "site": "Spring Health",
+   "url": "https://www.springhealth.com/blog/comprehensive-toolkit-for-leaders",
+   "title": "A Comprehensive Toolkit for Leaders—4 Strategies for Healthier, More Productive Employees",
+   "date": "2026-10-16T23:52:28+00:00",
+   "kind": "bulk",
+   "published": "2024-05-29T00:00:00+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Employee wellness and workplace productivity",
+   "search": "how to improve employee productivity wellness",
+   "why": "Educates HR leaders on wellness-based productivity approach, building authority."
   },
   {
    "site": "Spring Health",
@@ -703,6 +917,20 @@
   },
   {
    "site": "Spring Health",
+   "url": "https://www.springhealth.com/blog/apida-men-are-less-likely-to-seek-mental-health-support",
+   "title": "APIDA Men Are Less Likely to Seek Mental Health Support. These 6 Employer Strategies Can Break Down the Barriers.",
+   "date": "2026-10-16T23:52:25+00:00",
+   "kind": "bulk",
+   "published": "2024-05-13T00:00:00+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "APIDA men mental health workplace support",
+   "search": "how to support APIDA men mental health",
+   "why": "Educates HR leaders on cultural barriers and actionable employer strategies for employee wellbeing."
+  },
+  {
+   "site": "Spring Health",
    "url": "https://www.springhealth.com/blog/6-ways-celebrate-apida-diversity-at-work",
    "title": "Connecting Through Culture: 6 Healthy Ways to Celebrate APIDA Diversity in Your Workplace",
    "date": "2026-10-16T23:52:23+00:00",
@@ -714,6 +942,48 @@
    "topic": "Celebrate APIDA diversity at work",
    "search": "APIDA Heritage Month workplace activities",
    "why": "Educates HR leaders on inclusive wellness practices and cultural competency during APIDA Heritage Month."
+  },
+  {
+   "site": "Spring Health",
+   "url": "https://www.springhealth.com/blog/cost-saving-benefits-hr-strategic",
+   "title": "Improving Access: Paving the Way for Affordable Behavioral Healthcare",
+   "date": "2026-10-16T23:52:23+00:00",
+   "kind": "bulk",
+   "published": "2024-05-16T00:00:00+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "opinion",
+   "stage": "learning",
+   "topic": "Affordable behavioral healthcare access",
+   "search": "affordable behavioral healthcare solutions",
+   "why": "Positions Spring Health as thought leader challenging industry myths about cost-access tradeoffs."
+  },
+  {
+   "site": "Spring Health",
+   "url": "https://www.springhealth.com/blog/create-mental-health-leave-policy-workplace-resilience",
+   "title": "Tips to Help You Create a Mental Health Leave Policy That Drives Workplace Resilience",
+   "date": "2026-10-16T23:52:23+00:00",
+   "kind": "bulk",
+   "published": "2026-04-10T00:00:00+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Creating mental health leave policy",
+   "search": "how to create mental health leave policy",
+   "why": "Educates HR leaders on building mental health leave policies to demonstrate employer expertise."
+  },
+  {
+   "site": "Spring Health",
+   "url": "https://www.springhealth.com/blog/break-the-cycle-of-financial-stress-improve-mental-well-being",
+   "title": "How to Break the Cycle of Financial Stress and Improve Mental Wellbeing",
+   "date": "2026-10-16T23:52:22+00:00",
+   "kind": "bulk",
+   "published": "2024-11-22T00:00:00+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Financial stress mental health",
+   "search": "financial stress mental health employee wellbeing",
+   "why": "Educates HR leaders on financial wellness as benefit strategy to improve employee mental health."
   },
   {
    "site": "Spring Health",
@@ -773,6 +1043,20 @@
   },
   {
    "site": "Spring Health",
+   "url": "https://www.springhealth.com/blog/creating-integrated-patient-centered-continuum-of-care",
+   "title": "6 Pillars of Creating a Patient-Centered, Integrated Continuum of Care",
+   "date": "2026-10-16T23:33:41+00:00",
+   "kind": "bulk",
+   "published": "2024-06-05T00:00:00+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "opinion",
+   "stage": "learning",
+   "topic": "patient-centered integrated continuum of care",
+   "search": "continuum of care behavioral healthcare",
+   "why": "Establishes thought leadership on integrated mental healthcare systems and Spring Health's framework."
+  },
+  {
+   "site": "Spring Health",
    "url": "https://www.springhealth.com/blog/5-proven-strategies-for-addressing-the-global-human-energy-crisis",
    "title": "5 Proven Strategies for Addressing the Global Human Energy Crisis",
    "date": "2026-10-16T23:33:38+00:00",
@@ -784,6 +1068,76 @@
    "topic": "addressing workplace energy crisis mental health",
    "search": "human energy crisis workplace mental health",
    "why": "Positions Spring Health as thought leader on employee burnout and wellbeing solutions for HR leaders."
+  },
+  {
+   "site": "Spring Health",
+   "url": "https://www.springhealth.com/blog/characteristics-gen-z-in-the-workplace",
+   "title": "Understanding Gen Z in the Workplace: Key Characteristics and Challenges",
+   "date": "2026-10-16T23:33:38+00:00",
+   "kind": "bulk",
+   "published": "2025-03-05T00:00:00+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Gen Z workplace traits and management",
+   "search": "how to manage Gen Z employees",
+   "why": "Educates HR leaders on Gen Z characteristics to drive employee wellbeing adoption."
+  },
+  {
+   "site": "Spring Health",
+   "url": "https://www.springhealth.com/blog/childrens-mental-health-crisis-employers-can-support-families",
+   "title": "Children's Mental Health Crisis: How Employers Can Support Families",
+   "date": "2026-10-16T23:33:38+00:00",
+   "kind": "bulk",
+   "published": "2022-07-22T00:00:00+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Children's mental health support employers",
+   "search": "how can employers support children mental health",
+   "why": "Educates HR leaders on recognizing mental health crises and supporting employee families."
+  },
+  {
+   "site": "Spring Health",
+   "url": "https://www.springhealth.com/blog/coming-out-in-the-workplace-belonging-psychological-safety",
+   "title": "Coming Out in the Workplace: The Importance of Belonging and Psychological Safety",
+   "date": "2026-10-16T23:33:38+00:00",
+   "kind": "bulk",
+   "published": "2024-10-02T00:00:00+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "LGBTQ+ inclusion and psychological safety",
+   "search": "how to support LGBTQ+ employees coming out",
+   "why": "Educates HR leaders on creating inclusive workplace cultures where queer employees feel safe."
+  },
+  {
+   "site": "Spring Health",
+   "url": "https://www.springhealth.com/blog/critical-incident-response-approach",
+   "title": "A New Approach to Critical Incident Response That Truly Supports Recovery",
+   "date": "2026-10-16T23:33:38+00:00",
+   "kind": "bulk",
+   "published": "2025-04-29T00:00:00+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Critical incident response and recovery",
+   "search": "critical incident response workplace support",
+   "why": "Educates HR leaders on integrated crisis support beyond immediate response."
+  },
+  {
+   "site": "Spring Health",
+   "url": "https://www.springhealth.com/blog/cultivating-resilience-healthier-employees-stronger-workplace",
+   "title": "Building Resilience for Healthier Employees and a Stronger Workplace",
+   "date": "2026-10-16T23:33:38+00:00",
+   "kind": "bulk",
+   "published": "2022-08-26T00:00:00+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Building workplace resilience culture",
+   "search": "how to build resilience in workplace",
+   "why": "Educates HR leaders on resilience strategies to improve employee wellbeing and retention."
   },
   {
    "site": "Spring Health",
@@ -815,6 +1169,20 @@
   },
   {
    "site": "Spring Health",
+   "url": "https://www.springhealth.com/blog/barriers-to-mental-health-black-community-webinar",
+   "title": "Breaking Down Barriers to Mental Health in the Black Community",
+   "date": "2026-10-16T23:24:51+00:00",
+   "kind": "bulk",
+   "published": "2020-06-29T00:00:00+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "opinion",
+   "stage": "learning",
+   "topic": "Black mental health barriers accessibility",
+   "search": "mental health barriers Black community",
+   "why": "Positions Spring Health as thought leader addressing equity in mental health access for HR decision-makers."
+  },
+  {
+   "site": "Spring Health",
    "url": "https://www.springhealth.com/blog/5-ways-boost-employee-wellbeing",
    "title": "World Mental Health Day: 5 Ways to Boost Employee Wellbeing",
    "date": "2026-10-16T23:24:49+00:00",
@@ -826,6 +1194,34 @@
    "topic": "boost employee wellbeing mental health",
    "search": "ways improve employee wellbeing mental health",
    "why": "Educates HR leaders on workplace mental health best practices during relevant awareness period."
+  },
+  {
+   "site": "Spring Health",
+   "url": "https://www.springhealth.com/blog/black-mental-health-matters",
+   "title": "Black Mental Health Matters: Facts, Resources, and Tips for Allies",
+   "date": "2026-10-16T23:24:49+00:00",
+   "kind": "bulk",
+   "published": "2020-08-03T00:00:00+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Black mental health support resources",
+   "search": "Black mental health facts resources support",
+   "why": "Educates HR leaders on Black mental health disparities and support strategies."
+  },
+  {
+   "site": "Spring Health",
+   "url": "https://www.springhealth.com/blog/creating-private-space-teletherapy",
+   "title": "How to Create Private Space for Teletherapy Sessions",
+   "date": "2026-10-16T23:24:49+00:00",
+   "kind": "bulk",
+   "published": "2020-07-20T00:00:00+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "howto",
+   "stage": "customers",
+   "topic": "Create private space for teletherapy",
+   "search": "how to create private space teletherapy",
+   "why": "Helps existing users get more value from teletherapy sessions through practical tips."
   },
   {
    "site": "Spring Health",
@@ -899,6 +1295,76 @@
   },
   {
    "site": "Spring Health",
+   "url": "https://www.springhealth.com/blog/belonging-burnout-solution-connection-in-the-workplace",
+   "title": "Belonging as a Burnout Solution: How to Foster Connection in the Workplace",
+   "date": "2026-10-16T23:06:59+00:00",
+   "kind": "bulk",
+   "published": "2025-08-05T00:00:00+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Belonging reduces employee burnout",
+   "search": "how to reduce employee burnout",
+   "why": "Educates HR leaders on burnout solutions to drive product awareness."
+  },
+  {
+   "site": "Spring Health",
+   "url": "https://www.springhealth.com/blog/cbt-dbt-emdr-find-the-right-modality-for-you",
+   "title": "CBT, DBT, EMDR? Find the Right Modality for You",
+   "date": "2026-10-16T23:06:59+00:00",
+   "kind": "bulk",
+   "published": "2025-09-19T00:00:00+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Therapy modalities CBT DBT EMDR",
+   "search": "CBT DBT EMDR which therapy right for me",
+   "why": "Educates employees on therapy types to normalize mental health support and guide treatment selection."
+  },
+  {
+   "site": "Spring Health",
+   "url": "https://www.springhealth.com/blog/cbt-explained-the-therapy-approach-everyones-talking-about",
+   "title": "CBT Explained: The Therapy Approach Everyone’s Talking About",
+   "date": "2026-10-16T23:06:59+00:00",
+   "kind": "bulk",
+   "published": "2025-09-19T00:00:00+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "What is CBT therapy",
+   "search": "what is cognitive behavioral therapy CBT",
+   "why": "Educates early-stage prospects unfamiliar with CBT and therapy options."
+  },
+  {
+   "site": "Spring Health",
+   "url": "https://www.springhealth.com/blog/create-culture-of-belonging-at-work",
+   "title": "Belonging as a Burnout Solution: How to Foster Connection in the Workplace",
+   "date": "2026-10-16T23:06:59+00:00",
+   "kind": "bulk",
+   "published": "2025-08-05T00:00:00+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Belonging reduces employee burnout",
+   "search": "how to reduce employee burnout workplace",
+   "why": "Educates HR leaders on burnout causes and belonging solutions to establish thought leadership."
+  },
+  {
+   "site": "Spring Health",
+   "url": "https://www.springhealth.com/blog/cbt-for-anxiety-what-to-expect-and-how-it-helps",
+   "title": "CBT for Anxiety: What to Expect and How It Helps",
+   "date": "2026-10-16T23:06:58+00:00",
+   "kind": "bulk",
+   "published": "2025-10-21T00:00:00+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "CBT for anxiety management",
+   "search": "how does CBT help anxiety",
+   "why": "Educates early-stage prospects on anxiety treatment before considering therapy solutions."
+  },
+  {
+   "site": "Spring Health",
    "url": "https://www.springhealth.com/blog/3-employee-mental-health-benefits-trends",
    "title": "Employee Mental Health Benefits Are Rapidly Evolving. Here Are 3 Trends to Know About in 2024.",
    "date": "2026-10-16T23:06:57+00:00",
@@ -941,6 +1407,20 @@
   },
   {
    "site": "Spring Health",
+   "url": "https://www.springhealth.com/blog/childhood-anxiety-support",
+   "title": "The Ripple Effects of Childhood Anxiety Can Impact the Workplace. Organizations Are Well-Positioned to Offer Support to Working Caregivers.",
+   "date": "2026-10-16T23:06:57+00:00",
+   "kind": "bulk",
+   "published": "2024-05-15T00:00:00+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "childhood anxiety workplace support",
+   "search": "how to support employees with anxious children",
+   "why": "Educates HR leaders on employee mental health needs and organizational support strategies."
+  },
+  {
+   "site": "Spring Health",
    "url": "https://www.springhealth.com/blog/2023-workplace-mental-health",
    "title": "2023 Workplace Mental Health: New Challenges, New Directions, and Best Practices",
    "date": "2026-10-16T23:06:56+00:00",
@@ -966,6 +1446,20 @@
    "topic": "2024 workplace mental health trends",
    "search": "workplace mental health trends 2024",
    "why": "Positions Spring Health as thought leader in employer mental health strategy and emerging issues."
+  },
+  {
+   "site": "Spring Health",
+   "url": "https://www.springhealth.com/blog/beyond-eaps-your-guide-to-a-new-mental-health-approach-in-2026",
+   "title": "Beyond EAPs: Your Guide to a New Mental Health Approach in 2026",
+   "date": "2026-10-16T23:06:56+00:00",
+   "kind": "bulk",
+   "published": "2025-10-14T00:00:00+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "compare",
+   "stage": "comparing",
+   "topic": "EAP alternatives and mental health solutions",
+   "search": "EAP vs modern mental health solutions",
+   "why": "Positions Spring Health as superior alternative to traditional EAPs for HR buyers evaluating options."
   },
   {
    "site": "Spring Health",
@@ -1025,6 +1519,62 @@
   },
   {
    "site": "Spring Health",
+   "url": "https://www.springhealth.com/blog/brooke-malensek-transition-to-a-full-time-spring-health-provider",
+   "title": "Journey of a Therapist: Brooke Malensek’s Transition to a Full-Time Spring Health Provider",
+   "date": "2026-10-16T22:41:37+00:00",
+   "kind": "bulk",
+   "published": "2023-06-28T00:00:00+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "case",
+   "stage": "customers",
+   "topic": "Therapist career journey at Spring Health",
+   "search": "therapist working full-time Spring Health",
+   "why": "Builds credibility with mental health providers considering Spring Health employment."
+  },
+  {
+   "site": "Spring Health",
+   "url": "https://www.springhealth.com/blog/care-navigators-partner-with-providers",
+   "title": "Care Navigators: Partnering with Providers to Help Employees Feel Better, Faster",
+   "date": "2026-10-16T22:39:42+00:00",
+   "kind": "bulk",
+   "published": "2022-12-01T00:00:00+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "opinion",
+   "stage": "comparing",
+   "topic": "Care navigators provider support benefits",
+   "search": "mental health care navigators provider support",
+   "why": "Demonstrates unique clinical model to differentiate from competitors in employer mental health space."
+  },
+  {
+   "site": "Spring Health",
+   "url": "https://www.springhealth.com/blog/care-navigation-bridging-the-gap-employee-mental-healthcare",
+   "title": "A Closer Look at Care Navigation: Bridging the Gap to Mental Healthcare for Employees",
+   "date": "2026-10-16T22:39:06+00:00",
+   "kind": "bulk",
+   "published": "2022-12-01T00:00:00+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Care Navigation mental healthcare barriers",
+   "search": "care navigation employee mental health",
+   "why": "Educates HR leaders on how care navigators reduce employee benefit utilization gaps."
+  },
+  {
+   "site": "Spring Health",
+   "url": "https://www.springhealth.com/blog/ai-in-mental-healthcare",
+   "title": "AI and the New Horizon in Mental Healthcare",
+   "date": "2026-10-16T22:26:37+00:00",
+   "kind": "bulk",
+   "published": "2025-01-29T00:00:00+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "opinion",
+   "stage": "learning",
+   "topic": "AI in mental healthcare ethics",
+   "search": "AI mental healthcare personalized care",
+   "why": "Establishes thought leadership on responsible AI in mental health to attract learning-stage prospects."
+  },
+  {
+   "site": "Spring Health",
    "url": "https://www.springhealth.com/blog/6-ways-workplace-leaders-can-bridge-generational-divides-in-mental-health-support",
    "title": "6 Ways Workplace Leaders Can Bridge Generational Gaps in Mental Health Support",
    "date": "2026-10-16T22:24:59+00:00",
@@ -1036,6 +1586,34 @@
    "topic": "generational differences mental health support",
    "search": "workplace generational gaps mental health",
    "why": "Establishes thought leadership by educating HR leaders on managing multigenerational workforce mental health needs."
+  },
+  {
+   "site": "Spring Health",
+   "url": "https://www.springhealth.com/blog/continuous-care-model-mental-healthcare",
+   "title": "Introducing Continuous Care: A New Model of Mental Healthcare",
+   "date": "2026-10-16T22:22:18+00:00",
+   "kind": "bulk",
+   "published": "2025-05-29T00:00:00+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "opinion",
+   "stage": "learning",
+   "topic": "AI-driven continuous mental health care model",
+   "search": "AI mental health care continuous model",
+   "why": "Establishes thought leadership on ethical AI in mental healthcare for HR decision-makers."
+  },
+  {
+   "site": "Spring Health",
+   "url": "https://www.springhealth.com/blog/blog-writing-best-practices-mental-health-clinicians",
+   "title": "Blog Writing Best Practices for Mental Health Clinicians",
+   "date": "2026-10-16T22:20:57+00:00",
+   "kind": "bulk",
+   "published": "2022-05-09T00:00:00+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Blog writing best practices clinicians",
+   "search": "how to write blog mental health clinician",
+   "why": "Attracts mental health providers researching blogging strategies for practice growth."
   },
   {
    "site": "Lyra Health",
@@ -1878,6 +2456,34 @@
    "why": "Showcases their structured wellness product to buyers evaluating employer mental health solutions."
   },
   {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/resources/articles/change-fatigue/",
+   "title": "Change Fatigue: Why Change Isn’t the Problem",
+   "date": "2026-09-22T20:03:50+00:00",
+   "kind": "new",
+   "published": "2026-09-22T20:03:50+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "change fatigue employee wellbeing",
+   "search": "what is change fatigue employees",
+   "why": "Educates HR leaders and managers on recognizing and managing change fatigue in their workforce."
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/blog/detecting-risk-isnt-enough-for-safer-mental-health-ai/",
+   "title": "Detecting Risk Isn’t Enough for Safer Mental Health AI",
+   "date": "2026-09-21T14:57:37+00:00",
+   "kind": "updated",
+   "published": "2026-09-16T16:00:05+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "opinion",
+   "stage": "learning",
+   "topic": "Mental health AI safety and risk detection",
+   "search": "mental health AI safety risk detection",
+   "why": "Establishes Lyra's expertise on AI safety standards beyond what competitors offer."
+  },
+  {
    "site": "Talkspace for Business",
    "url": "https://business.talkspace.com/employers/education",
    "title": "Therapy for Students, Teachers & Staff | Talkspace",
@@ -1890,6 +2496,20 @@
    "topic": "Mental health benefits for educational institutions",
    "search": "mental health therapy for schools students teachers",
    "why": "Targets education sector buyers ready to implement employee wellness programs with ROI messaging."
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/resources/guide/beyond-the-safety-plan-supporting-health-care-workers-through-workplace-violence/",
+   "title": "Beyond the Safety Plan: Supporting Health Care Workers Through Workplace Violence",
+   "date": "2026-09-18T20:12:14+00:00",
+   "kind": "new",
+   "published": "2026-09-18T20:12:14+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "howto",
+   "stage": "comparing",
+   "topic": "workplace violence mental health support",
+   "search": "mental health support workplace violence healthcare",
+   "why": "Helps HR leaders evaluate and improve workplace violence response with mental health integration."
   },
   {
    "site": "Talkspace for Business",
@@ -1976,6 +2596,48 @@
    "why": "Targets HR buyers in consumer services seeking tailored wellness solutions with ROI proof."
   },
   {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/blog/how-to-recover-from-burnout/",
+   "title": "How to Recover From Burnout When Life Can’t Slow Down",
+   "date": "2026-09-16T07:00:19+00:00",
+   "kind": "new",
+   "published": "2026-09-16T07:00:19+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "How to recover from burnout",
+   "search": "how to recover from burnout",
+   "why": "Builds authority in mental health; attracts employees seeking burnout solutions early."
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/resources/guide/the-new-front-door-to-workforce-mental-health/",
+   "title": "The New Front Door to Workforce Mental Health",
+   "date": "2026-09-15T20:30:42+00:00",
+   "kind": "new",
+   "published": "2026-09-15T20:30:42+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "howto",
+   "stage": "comparing",
+   "topic": "Workforce mental health benefits integration",
+   "search": "mental health benefits employee access Workday",
+   "why": "Shows how integrated approach beats traditional benefits, positioning Lyra against fragmented competitors."
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/about/",
+   "title": "About",
+   "date": "2026-09-15T19:58:23+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "news",
+   "stage": "learning",
+   "topic": "Lyra Health company mission updates",
+   "search": "mental health benefits employer workplace",
+   "why": "Builds brand credibility with company news, certifications, and innovation announcements."
+  },
+  {
    "site": "Modern Health",
    "url": "https://www.modernhealth.com/economic-value",
    "title": "Economic Value | Modern Health",
@@ -1990,6 +2652,104 @@
    "why": "Proves financial value to convince HR buyers mental health investment pays for itself."
   },
   {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/blog/lyra-care-navigation/",
+   "title": "Global Reach, Local Human Touch: How Lyra’s Care Navigators Are Changing Mental Health Care",
+   "date": "2026-09-14T23:07:50+00:00",
+   "kind": "updated",
+   "published": "2025-09-16T16:00:15+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "opinion",
+   "stage": "comparing",
+   "topic": "Care navigation mental health solutions",
+   "search": "care navigation mental health benefits",
+   "why": "Showcases Lyra's care navigation differentiators to buyers evaluating mental health solutions."
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/webinar/complex-care/",
+   "title": "When Mental Health Needs Get Complex: Is Your Benefit Ready?",
+   "date": "2026-09-14T19:23:24+00:00",
+   "kind": "updated",
+   "published": "2026-08-31T16:30:22+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "landing",
+   "stage": "comparing",
+   "topic": "Complex mental health care pathways",
+   "search": "mental health benefits complex care gaps",
+   "why": "Helps benefits leaders evaluate their current mental health offerings against Lyra's connected care approach."
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/resources/guide/the-business-case-for-prevention-why-proactive-mental-health-support-pays-off/",
+   "title": "The Business Case for Prevention: Why Proactive Mental Health Support Pays Off",
+   "date": "2026-09-10T20:00:32+00:00",
+   "kind": "unknown",
+   "published": "2026-09-10T20:00:32+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "howto",
+   "stage": "comparing",
+   "topic": "proactive mental health support business case",
+   "search": "business case preventive mental health benefits",
+   "why": "Helps HR buyers understand prevention ROI versus reactive mental health programs."
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/resources/guide/beyond-implementation-how-lyra-supports-you-for-the-long-term/",
+   "title": "Beyond Implementation: How Lyra Supports You for the Long Term",
+   "date": "2026-09-10T19:58:01+00:00",
+   "kind": "unknown",
+   "published": "2026-09-10T19:58:01+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "howto",
+   "stage": "buying",
+   "topic": "long-term mental health benefit support",
+   "search": "employer mental health benefits implementation support",
+   "why": "Shows post-purchase value and ongoing partnership to convince buyers of long-term ROI."
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/webinar-on-demand/connected-care-better-outcomes/",
+   "title": "Connected Care, Better Outcomes: When Employees Access the Right Care at the Right Time, Every One Wins",
+   "date": "2026-09-09T20:58:23+00:00",
+   "kind": "unknown",
+   "published": "2026-09-09T20:58:23+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "case",
+   "stage": "buying",
+   "topic": "connected care outcomes data",
+   "search": "connected mental health care improves outcomes",
+   "why": "Demonstrates ROI and clinical outcomes to convince buyers of integrated mental health solutions."
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/resources/guide/the-new-standard-for-connected-care/",
+   "title": "The New Standard for Connected Care",
+   "date": "2026-09-09T20:03:24+00:00",
+   "kind": "unknown",
+   "published": "2026-09-09T20:03:24+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "howto",
+   "stage": "comparing",
+   "topic": "connected care mental physical health integration",
+   "search": "connected care mental physical health benefits",
+   "why": "Educates buyers on integrated care value, positioning Lyra's approach as solution."
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/resources/guide/a-better-path-to-mental-health-care/",
+   "title": "A Better Path to Mental Health Care",
+   "date": "2026-09-09T00:40:07+00:00",
+   "kind": "updated",
+   "published": "2026-09-03T17:30:38+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "mental health care access integration",
+   "search": "how to give employees mental health care",
+   "why": "Educates HR buyers on designing comprehensive mental health benefits spanning self-care through specialized clinical care."
+  },
+  {
    "site": "Talkspace for Business",
    "url": "https://business.talkspace.com/consultants",
    "title": "Talkspace for Consultants | Enterprise Mental Health Support",
@@ -2002,6 +2762,34 @@
    "topic": "mental health benefits for consultants",
    "search": "mental health benefits for consulting firms",
    "why": "Targets consultants reselling wellness benefits, differentiates via ROI data and flexible options."
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/roi-calculator/",
+   "title": "ROI Calculator",
+   "date": "2026-09-04T18:56:02+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "ROI calculator for mental health benefits",
+   "search": "mental health benefits ROI calculator",
+   "why": "Helps HR buyers quantify financial value before purchasing decision."
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/resources/guide/launching-lyra-is-easier-than-you-think/",
+   "title": "Launching Lyra is Easier Than You Think",
+   "date": "2026-09-04T01:53:06+00:00",
+   "kind": "unknown",
+   "published": "2026-09-04T01:53:06+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "howto",
+   "stage": "buying",
+   "topic": "mental health benefit implementation launch",
+   "search": "how to launch mental health benefits",
+   "why": "Removes implementation barriers for benefits teams ready to purchase and deploy Lyra."
   },
   {
    "site": "Talkspace for Business",
@@ -2060,6 +2848,202 @@
    "why": "Targets employers in business services looking to add mental health benefits to their package."
   },
   {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/webinar/wft-minding-your-mental-health/",
+   "title": "Minding Your Mental Health: How to Know When to Get Support",
+   "date": "2026-09-02T18:23:49+00:00",
+   "kind": "unknown",
+   "published": "2026-09-02T18:23:49+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "mental health support seeking guidance",
+   "search": "when to seek mental health support",
+   "why": "Educates employees on recognizing need for help and accessing mental health support."
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/webinar/manager-squeeze/",
+   "title": "The Manager Squeeze: Why Performance and Well-Being Can’t Be Solved Separately",
+   "date": "2026-09-02T18:21:51+00:00",
+   "kind": "unknown",
+   "published": "2026-09-02T18:21:51+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "opinion",
+   "stage": "comparing",
+   "topic": "Manager mental health performance wellbeing",
+   "search": "manager stress performance wellbeing solutions",
+   "why": "Educates benefits consultants on manager squeeze trend to position Lyra as integrated solution."
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/customer-stories/brown-brothers-harriman/",
+   "title": "Brown Brothers Harriman Customer Story",
+   "date": "2026-09-02T15:24:26+00:00",
+   "kind": "updated",
+   "published": "2022-10-17T23:11:25+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "case",
+   "stage": "buying",
+   "topic": "Mental health EAP employer benefits",
+   "search": "mental health benefits for employees",
+   "why": "Demonstrates outcomes and ROI to convince HR leaders to switch from competitors."
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/customer-stories/genentech/",
+   "title": "Genentech & U.S. Roche",
+   "date": "2026-09-02T15:24:13+00:00",
+   "kind": "updated",
+   "published": "2022-08-24T16:56:03+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "case",
+   "stage": "buying",
+   "topic": "employer mental health benefits platform",
+   "search": "mental health benefits for employees",
+   "why": "Demonstrates ROI and outcomes from major biotech customer to convince enterprise buyers."
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/customer-stories/vca/",
+   "title": "VCA",
+   "date": "2026-09-02T15:23:45+00:00",
+   "kind": "updated",
+   "published": "2022-08-24T15:26:20+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "case",
+   "stage": "buying",
+   "topic": "mental health benefits workplace EAP",
+   "search": "mental health EAP employer benefits",
+   "why": "Demonstrates ROI and outcomes for HR buyers evaluating mental health platforms."
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/customer-stories/sheppard-mullin/",
+   "title": "Sheppard Mullin Customer Story",
+   "date": "2026-09-02T15:23:28+00:00",
+   "kind": "updated",
+   "published": "2022-10-17T23:37:28+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "case",
+   "stage": "buying",
+   "topic": "law firm mental health benefits",
+   "search": "mental health solutions for law firms",
+   "why": "Demonstrates ROI and fast outcomes to convince HR decision-makers to choose Lyra."
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/customer-stories/morgan-stanley/",
+   "title": "Morgan Stanley",
+   "date": "2026-09-02T15:20:52+00:00",
+   "kind": "updated",
+   "published": "2022-08-24T16:55:20+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "case",
+   "stage": "buying",
+   "topic": "Morgan Stanley mental health ROI",
+   "search": "mental health benefits ROI employer case study",
+   "why": "Demonstrates measurable outcomes to convince employers considering mental health solutions to choose Lyra."
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/alternative/",
+   "title": "Alternative",
+   "date": "2026-09-02T02:49:16+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "compare",
+   "stage": "buying",
+   "topic": "Mental health benefits alternatives comparison",
+   "search": "mental health benefits for employees vs alternatives",
+   "why": "Directly compares Lyra against competing mental health solutions with outcomes and ROI."
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/partners/quantumhealth/",
+   "title": "QuantumHealth",
+   "date": "2026-09-02T02:41:22+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "Lyra and QuantumHealth partnership benefits",
+   "search": "mental health EAP benefits partner integration",
+   "why": "Showcases integrated partnership value to persuade buyers to choose combined solution."
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/partners/cha/",
+   "title": "CHA",
+   "date": "2026-09-02T02:39:51+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "Mental health benefits for healthcare workers",
+   "search": "mental health services healthcare workers",
+   "why": "Showcases partnership solution to CHA member hospitals ready to deploy benefits."
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/partners/metlife/",
+   "title": "MetLife",
+   "date": "2026-09-02T02:37:46+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "MetLife partnership mental health benefits",
+   "search": "MetLife disability leave mental health support",
+   "why": "Showcases partnership value to MetLife customers considering mental health and leave management solutions."
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/resources/guide/how-lyra-drives-engagement-and-better-outcomes/",
+   "title": "How Lyra Drives Engagement—and Better Outcomes",
+   "date": "2026-09-02T02:22:49+00:00",
+   "kind": "unknown",
+   "published": "2026-09-02T02:22:49+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "landing",
+   "stage": "buying",
+   "topic": "Employee engagement mental health benefits",
+   "search": "how to increase mental health benefit engagement",
+   "why": "Shows employers how Lyra solves engagement and outcomes, converting buyers evaluating benefits programs."
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/demand-more/",
+   "title": "Demand more",
+   "date": "2026-09-01T20:14:28+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "opinion",
+   "stage": "buying",
+   "topic": "Mental health benefits proof and ROI",
+   "search": "mental health benefits ROI for employers",
+   "why": "Educates buyers on proving mental health value to finance stakeholders and CFOs."
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/lyra-clinical-research/",
+   "title": "Lyra Clinical Research",
+   "date": "2026-09-01T20:11:49+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "research",
+   "stage": "learning",
+   "topic": "Clinical research mental health outcomes",
+   "search": "clinical research mental health outcomes",
+   "why": "Demonstrates scientific credibility and evidence-based approach to attract HR buyers."
+  },
+  {
    "site": "Talkspace for Business",
    "url": "https://business.talkspace.com/payers/eap",
    "title": "Expand Your EAP with Talkspace",
@@ -2074,18 +3058,88 @@
    "why": "Targets payers evaluating EAP expansion solutions with demo CTAs."
   },
   {
-   "site": "Talkspace for Business",
-   "url": "https://business.talkspace.com/employers/roi-calculator",
-   "title": "Mental Health ROI Calculator For Employers - Talkspace | Talkspace",
-   "date": "2026-08-23T09:55:14+00:00",
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/resources/guide/the-hidden-strain-behind-high-performance/",
+   "title": "The Hidden Strain Behind High Performance",
+   "date": "2026-09-01T17:16:59+00:00",
+   "kind": "unknown",
+   "published": "2026-09-01T17:16:59+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "Mental health support for high performers",
+   "search": "mental health strain high performance workplace",
+   "why": "Educates employers on hidden burnout risk and mental health ROI for talent retention."
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/blog/mental-health-leader-spotlight-cummins/",
+   "title": "Mental Health Leader Spotlight: Kate Fisher of Cummins",
+   "date": "2026-09-01T17:09:18+00:00",
+   "kind": "unknown",
+   "published": "2026-09-01T17:09:18+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "case",
+   "stage": "customers",
+   "topic": "Mental health strategy at large enterprise",
+   "search": "how to support employee mental health",
+   "why": "Showcases customer success to build credibility with prospective enterprise buyers."
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/resources/guide/thriving-under-pressure-6-ways-to-build-workforce-resilience/",
+   "title": "Thriving Under Pressure: 6 Ways to Build Workforce Resilience",
+   "date": "2026-08-31T20:55:52+00:00",
+   "kind": "updated",
+   "published": "2025-06-17T23:53:32+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "howto",
+   "stage": "learning",
+   "topic": "building workforce resilience",
+   "search": "how to build workforce resilience",
+   "why": "Educates HR buyers on resilience strategies while establishing Lyra's expertise."
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/resources/guide/connecting-employees-to-the-right-support/",
+   "title": "Connecting Employees to the Right Support",
+   "date": "2026-08-28T21:24:55+00:00",
+   "kind": "unknown",
+   "published": "2026-08-28T21:24:55+00:00",
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "case",
+   "stage": "comparing",
+   "topic": "Employee benefits navigation with AI",
+   "search": "simplify employee benefits navigation AI",
+   "why": "Shows how Lyra's AI improves benefits discovery and care access versus traditional approaches."
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/breakthrough-2026/",
+   "title": "Breakthrough 2026",
+   "date": "2026-08-28T07:42:55+00:00",
+   "kind": "unknown",
+   "published": null,
+   "first_seen": "2026-10-20T01:20:12+00:00",
+   "type": "landing",
+   "stage": "customers",
+   "topic": "Mental health conference for benefits leaders",
+   "search": "workplace mental health conference 2026",
+   "why": "Drives registrations for exclusive event targeting existing HR and benefits buyers."
+  },
+  {
+   "site": "Lyra Health",
+   "url": "https://www.lyrahealth.com/lyra-select/",
+   "title": "Lyra Select",
+   "date": "2026-08-28T07:03:34+00:00",
    "kind": "unknown",
    "published": null,
    "first_seen": "2026-10-20T01:20:12+00:00",
    "type": "landing",
    "stage": "buying",
-   "topic": "Mental health ROI calculator employers",
-   "search": "mental health benefits ROI calculator",
-   "why": "Demonstrates financial value to convince budget-holders to choose their benefits solution."
+   "topic": "EAP replacement mental health solution",
+   "search": "EAP alternative employer mental health benefits",
+   "why": "Positions Lyra Select as superior alternative to outdated EAPs for HR buyers."
   }
  ],
  "history": [
@@ -2104,6 +3158,54 @@
      "updated": 6,
      "removed": 0,
      "pages": 800
+    },
+    "Modern Health": {
+     "new": 0,
+     "updated": 0,
+     "removed": 0,
+     "pages": 208
+    },
+    "Headspace for Work": {
+     "new": 0,
+     "updated": 0,
+     "removed": 0,
+     "pages": 0
+    },
+    "Calm Business": {
+     "new": 0,
+     "updated": 0,
+     "removed": 0,
+     "pages": 0
+    },
+    "Talkspace for Business": {
+     "new": 0,
+     "updated": 0,
+     "removed": 0,
+     "pages": 346
+    },
+    "TELUS Health (LifeWorks)": {
+     "new": 0,
+     "updated": 0,
+     "removed": 0,
+     "pages": 788
+    }
+   }
+  },
+  {
+   "week": "2026-W44",
+   "date": "2026-10-26T13:05:13+00:00",
+   "sites": {
+    "Spring Health": {
+     "new": 0,
+     "updated": 1,
+     "removed": 0,
+     "pages": 761
+    },
+    "Lyra Health": {
+     "new": 2,
+     "updated": 1,
+     "removed": 0,
+     "pages": 801
     },
     "Modern Health": {
      "new": 0,

@@ -47,6 +47,54 @@
      "pages": 788
     }
    }
+  },
+  {
+   "week": "2026-W44",
+   "date": "2026-10-26T13:05:13+00:00",
+   "sites": {
+    "Spring Health": {
+     "new": 0,
+     "updated": 1,
+     "removed": 0,
+     "pages": 761
+    },
+    "Lyra Health": {
+     "new": 2,
+     "updated": 1,
+     "removed": 0,
+     "pages": 801
+    },
+    "Modern Health": {
+     "new": 0,
+     "updated": 0,
+     "removed": 0,
+     "pages": 208
+    },
+    "Headspace for Work": {
+     "new": 0,
+     "updated": 0,
+     "removed": 0,
+     "pages": 0
+    },
+    "Calm Business": {
+     "new": 0,
+     "updated": 0,
+     "removed": 0,
+     "pages": 0
+    },
+    "Talkspace for Business": {
+     "new": 0,
+     "updated": 0,
+     "removed": 0,
+     "pages": 346
+    },
+    "TELUS Health (LifeWorks)": {
+     "new": 0,
+     "updated": 0,
+     "removed": 0,
+     "pages": 788
+    }
+   }
   }
  ]
 }
