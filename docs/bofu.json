@@ -3,7 +3,7 @@
   "title": "Bottom-of-funnel content tracker",
   "niche": "Employer-sponsored mental health and wellbeing benefits for the workplace",
   "you": "Spring Health",
-  "generated": "2026-10-26T13:08:40+00:00",
+  "generated": "2026-11-02T15:58:15+00:00",
   "state_updated": "2026-10-20T01:20:12+00:00",
   "repo": "nico497/Spring-health"
  },
@@ -53,8 +53,8 @@
   },
   {
    "name": "Lyra Health",
-   "tracked": 801,
-   "considered": 763,
+   "tracked": 809,
+   "considered": 770,
    "own_pricing": null,
    "hubs": [
     "https://www.lyrahealth.com/customer-stories/"
@@ -92,7 +92,7 @@
   },
   {
    "name": "TELUS Health (LifeWorks)",
-   "tracked": 1180,
+   "tracked": 1184,
    "considered": 595,
    "own_pricing": null,
    "hubs": []
@@ -117,9 +117,9 @@
   "Optum EAP"
  ],
  "excluded": {
-  "webinars, glossary, events and category pages": 266,
-  "templated pages": 547,
-  "translated pages": 193
+  "webinars, glossary, events and category pages": 267,
+  "templated pages": 550,
+  "translated pages": 194
  },
  "pages": [
   {
