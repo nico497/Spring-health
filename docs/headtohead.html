@@ -440,9 +440,9 @@ function renderBoard() {
   });
 }
 
-let CS = "Lyra Health";
+let CS = SWTAB;
 function renderComp() {
-  $("#ctabs").innerHTML = `<span class="tabslabel">${YOU} vs.</span>` + RIV.map((r) => `<button type="button" data-r="${esc(r)}" aria-pressed="${r === CS}">${esc(r)}</button>`).join("") + `<span class="tabslabel" aria-hidden="true">|</span><button type="button" data-r="${SWTAB}" aria-pressed="${CS === SWTAB}">Strengths &amp; weaknesses</button>`;
+  $("#ctabs").innerHTML = `<button type="button" data-r="${SWTAB}" aria-pressed="${CS === SWTAB}">Strengths &amp; weaknesses</button><span class="tabslabel" aria-hidden="true">|</span><span class="tabslabel">${YOU} vs.</span>` + RIV.map((r) => `<button type="button" data-r="${esc(r)}" aria-pressed="${r === CS}">${esc(r)}</button>`).join("");
   $("#ctabs").querySelectorAll("button").forEach((b) => b.addEventListener("click", () => { CS = b.dataset.r; renderComp(); }));
   if (CS === SWTAB) return renderSW();
   const m = H2H[CS], t = total(CS);
