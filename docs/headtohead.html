@@ -201,6 +201,9 @@ table.nums tr.you td.h { background: color-mix(in srgb, var(--rival) calc(var(--
 .cp > div { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 24px; box-shadow: var(--shadow); }
 .cp .swcard { border-top: 4px solid var(--you); }
 .cp .swcard.w { border-top-color: var(--navy); }
+.cp ul.pts { list-style: disc; padding-left: 20px; color: var(--ink-2); } .cp ul.pts li { padding: 4px 0; }
+.cp .ph { margin: 0 0 6px; color: var(--navy); font-weight: 700; }
+.cp .cn .ph + ul.pts { margin-bottom: 16px; }
 .swcard h3 { margin: 0 0 4px; color: var(--navy); font: 800 24px/1.2 var(--sans); font-stretch: 106%; }
 .swcard .swsub { margin: 0 0 8px; color: var(--ink-3); font-size: 14px; }
 .swrow { padding: 14px 0; border-top: 1px solid var(--line); }
@@ -390,6 +393,40 @@ const H2H = {
 };
 const RIV = Object.keys(H2H);
 
+// Plain-language read of each matchup's open-comparison answers (gpt-4o, one run per name order).
+const SUM = {
+  "Lyra Health": {
+    why: ["Both answers call Lyra the stronger pick for clinical quality and proven results.", "Spring Health's strengths (smart matching, HR integration) don't outweigh that.", "The forced picks agree: Spring Health wins just 2 of 10, whichever name comes first."],
+    rival: ["Strong clinical quality and measurable results", "Broad network of qualified therapists", "Faster connection to a professional"],
+    you: ["Machine-learning matching to the right care", "Connects with HR and benefits systems"],
+  },
+  "Modern Health": {
+    why: ["A genuine toss-up: Spring Health is picked 3 of 5 times when named first, 2 of 5 when Modern Health is.", "Both answers say it depends on what you need: whole-person wellness (Modern Health) or fast clinical care (Spring Health)."],
+    rival: ["Covers mental, physical, financial and social wellbeing", "Multi-language support for global teams", "Coaches as well as clinical therapists"],
+    you: ["Data-driven matching to suitable therapy", "Faster start to therapy", "Flexible and scalable"],
+  },
+  "Headspace for Work": {
+    why: ["The model says they solve different problems: Headspace helps prevent stress, Spring Health treats it.", "When forced to pick one mental health benefit, it picks Spring Health every time (10 of 10)."],
+    rival: ["Mindfulness and meditation for stress prevention", "Easy to use and engaging"],
+    you: ["Therapy, coaching and psychiatry", "Support for employees who need clinical care"],
+  },
+  "Calm Business": {
+    why: ["Same pattern as Headspace: Calm is for relaxation and stress relief, Spring Health is clinical care.", "The model says company size and budget matter, but still picks Spring Health every time when forced (10 of 10)."],
+    rival: ["Meditation, sleep aids and breathing exercises", "Simple to use and likely cheaper"],
+    you: ["Therapy and psychiatry with licensed professionals", "Better fit for larger companies with varied needs"],
+  },
+  "Talkspace for Business": {
+    why: ["Spring Health wins 9 of 10: 5 of 5 when named first, 4 of 5 when Talkspace is.", "Talkspace's case is easy access and price. Spring Health's is a wider range of care."],
+    rival: ["Chat and video therapy any time", "Large therapist network", "Competitive pricing, good for small or budget-limited companies"],
+    you: ["Data-driven therapist matching", "Wider range of care, including medication management", "Analytics for employers"],
+  },
+  "TELUS Health (LifeWorks)": {
+    why: ["TELUS covers more (an all-round employee assistance program). Spring Health focuses on mental health only.", "The model says TELUS can feel overwhelming and less focused on mental health, and picks Spring Health every time (10 of 10)."],
+    rival: ["Covers financial, physical and social wellbeing", "Global reach for multinational employers"],
+    you: ["Focused on mental health only", "Fast, personalized access"],
+  },
+};
+
 // Consistent strengths/weaknesses: themes that recur in 2+ matchups' open-comparison answers (gpt-4o, 1 run per order).
 const SWTAB = "__sw";
 const SW = {
@@ -458,16 +495,18 @@ function renderComp() {
   $("#ctabs").innerHTML = `<button type="button" data-r="${SWTAB}" aria-pressed="${CS === SWTAB}">Strengths &amp; weaknesses</button><span class="tabslabel" aria-hidden="true">|</span><span class="tabslabel">${YOU} vs.</span>` + RIV.map((r) => `<button type="button" data-r="${esc(r)}" aria-pressed="${r === CS}">${esc(r)}</button>`).join("");
   $("#ctabs").querySelectorAll("button").forEach((b) => b.addEventListener("click", () => { CS = b.dataset.r; renderComp(); }));
   if (CS === SWTAB) return renderSW();
-  const m = H2H[CS], t = total(CS);
+  const m = H2H[CS], t = total(CS), x = SUM[CS];
   const vtxt = t.blvd > t.rival ? `The model picks ${YOU} in ${t.blvd} of 10 forced-pick runs.` : t.blvd < t.rival ? `The model picks ${esc(CS)} in ${t.rival} of 10 forced-pick runs.` : `Dead even across 10 runs.`;
+  const pts = (a) => `<ul class="pts">${a.map((p) => `<li>${esc(p)}</li>`).join("")}</ul>`;
   $("#cpanel").innerHTML = `<div class="cp"><div>
       <p class="verdict">${vtxt}</p>
-      <div class="ord"><span>${YOU} named first: <b>${m.you.blvd} of 5</b> for ${YOU}</span><span>${esc(CS)} named first: <b>${m.them.blvd} of 5</b> for ${YOU}</span></div>
-      <p class="dim" style="margin:0 0 6px;font-weight:700;color:var(--navy)">Open comparison (single run, not repeated)</p>
-      <ul class="how">${m.openPoints.map((p) => `<li>${esc(p)}</li>`).join("")}</ul>
-    </div><div class="cn"><h3>What the open comparison cited</h3>
-      <p class="insight">${esc(m.openCites)}</p>
-      <p class="insight">This is from one run per order (2 total), not the 10 forced-pick runs above — treat it as a data point, not a trend.</p>
+      <div class="ord"><span>When ${YOU} is named first: ${YOU} picked <b>${m.you.blvd} of 5</b> times</span><span>When ${esc(CS)} is named first: ${YOU} picked <b>${m.them.blvd} of 5</b> times</span></div>
+      <p class="ph">Why the model picked this way</p>
+      ${pts(x.why)}
+    </div><div class="cn"><h3>What each side is known for</h3>
+      <p class="ph">${esc(CS)}</p>${pts(x.rival)}
+      <p class="ph">${YOU}</p>${pts(x.you)}
+      <p class="insight">Based on 2 open answers (one per name order) from gpt-4o, with no web browsing. A guide, not verified fact.</p>
     </div></div>`;
 }
 
