@@ -459,15 +459,16 @@ function renderComp() {
 }
 
 function renderSW() {
-  const li = ([t, rs]) => `<li>${esc(t)} <span class="ty">· ${rs.map(esc).join(", ")}</span></li>`;
+  const li = ([t, rs]) => `<li>${esc(t)} <span class="ty">· ${Math.round((rs.length / RIV.length) * 100)}% (${rs.length} of ${RIV.length} matchups)</span></li>`;
+  const byCount = (a, b) => b[1].length - a[1].length;
   $("#cpanel").innerHTML = `<div class="cp"><div>
       <h3 style="margin:0 0 12px;color:var(--up);font:700 20px/1.25 var(--sans)">Consistent strengths</h3>
-      <ul class="how">${SW.strengths.map(li).join("")}</ul>
+      <ul class="how">${[...SW.strengths].sort(byCount).map(li).join("")}</ul>
     </div><div>
       <h3 style="margin:0 0 12px;color:var(--down);font:700 20px/1.25 var(--sans)">Consistent weaknesses</h3>
-      <ul class="how">${SW.weaknesses.map(li).join("")}</ul>
+      <ul class="how">${[...SW.weaknesses].sort(byCount).map(li).join("")}</ul>
     </div></div>
-    <p class="note">A point is listed when it comes up in 2 or more matchups. The one exception is Lyra, kept because it's the only matchup Spring Health clearly loses. Based on one open answer per name order from gpt-4o with no web browsing, so treat it as a guide, not verified fact.</p>`;
+    <p class="note">Percentage = how many of the 6 matchups bring the point up. Lyra is listed even though it's only 1 of 6, because it's the only matchup Spring Health clearly loses. Based on one open answer per name order from gpt-4o with no web browsing, so treat it as a guide, not verified fact.</p>`;
 }
 
 function renderFacts() {
