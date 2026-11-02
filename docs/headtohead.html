@@ -199,6 +199,19 @@ table.nums tr.you td.h { background: color-mix(in srgb, var(--rival) calc(var(--
 .ctypes button:hover { border-color: var(--navy); }
 .cp { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 20px; }
 .cp > div { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 24px; box-shadow: var(--shadow); }
+.cp .swcard { border-top: 4px solid var(--you); }
+.cp .swcard.w { border-top-color: var(--navy); }
+.swcard h3 { margin: 0 0 4px; color: var(--navy); font: 800 24px/1.2 var(--sans); font-stretch: 106%; }
+.swcard .swsub { margin: 0 0 8px; color: var(--ink-3); font-size: 14px; }
+.swrow { padding: 14px 0; border-top: 1px solid var(--line); }
+.swrow:first-of-type { border-top: 0; }
+.swrow p { margin: 0 0 9px; color: var(--ink); font-size: 15px; font-weight: 600; line-height: 1.35; }
+.swbar { display: flex; align-items: center; gap: 12px; }
+.swtrack { flex: 1; height: 8px; border-radius: 999px; background: var(--mark); overflow: hidden; }
+.swfill { display: block; height: 100%; border-radius: 999px; background: var(--you); }
+.swcard.w .swfill { background: var(--navy); }
+.swpct { min-width: 44px; text-align: right; color: var(--navy); font: 800 17px/1 var(--sans); font-variant-numeric: tabular-nums; }
+.swn { min-width: 92px; color: var(--ink-3); font-size: 13px; }
 .cp .cn { background: var(--panel); border-color: transparent; }
 .cp .cn h3 { margin: 0 0 12px; color: var(--navy); font: 700 20px/1.25 var(--sans); font-stretch: 106%; }
 .cp ul { margin: 0; padding: 0; list-style: none; font-size: 15px; } .cp li { padding: 5px 0; overflow-wrap: anywhere; } .cp .ty { font-size: 13px; color: var(--ink-3); }
@@ -459,14 +472,14 @@ function renderComp() {
 }
 
 function renderSW() {
-  const li = ([t, rs]) => `<li>${esc(t)} <span class="ty">· ${Math.round((rs.length / RIV.length) * 100)}% (${rs.length} of ${RIV.length} matchups)</span></li>`;
+  const row = ([t, rs]) => { const pc = Math.round((rs.length / RIV.length) * 100); return `<div class="swrow"><p>${esc(t)}</p><div class="swbar"><span class="swtrack"><span class="swfill" style="width:${pc}%"></span></span><span class="swpct">${pc}%</span><span class="swn">${rs.length} of ${RIV.length} matchups</span></div></div>`; };
   const byCount = (a, b) => b[1].length - a[1].length;
-  $("#cpanel").innerHTML = `<div class="cp"><div>
-      <h3 style="margin:0 0 12px;color:var(--up);font:700 20px/1.25 var(--sans)">Consistent strengths</h3>
-      <ul class="how">${[...SW.strengths].sort(byCount).map(li).join("")}</ul>
-    </div><div>
-      <h3 style="margin:0 0 12px;color:var(--down);font:700 20px/1.25 var(--sans)">Consistent weaknesses</h3>
-      <ul class="how">${[...SW.weaknesses].sort(byCount).map(li).join("")}</ul>
+  $("#cpanel").innerHTML = `<div class="cp"><div class="swcard">
+      <h3>Consistent strengths</h3><p class="swsub">What the model keeps crediting Spring Health for</p>
+      ${[...SW.strengths].sort(byCount).map(row).join("")}
+    </div><div class="swcard w">
+      <h3>Consistent weaknesses</h3><p class="swsub">Where the model keeps favoring rivals</p>
+      ${[...SW.weaknesses].sort(byCount).map(row).join("")}
     </div></div>
     <p class="note">Percentage = how many of the 6 matchups bring the point up. Lyra is listed even though it's only 1 of 6, because it's the only matchup Spring Health clearly loses. Based on one open answer per name order from gpt-4o with no web browsing, so treat it as a guide, not verified fact.</p>`;
 }
