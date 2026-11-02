@@ -381,16 +381,16 @@ const RIV = Object.keys(H2H);
 const SWTAB = "__sw";
 const SW = {
   strengths: [
-    ["Clinical depth: therapy, psychiatry, medication management", ["Headspace for Work", "Calm Business", "Talkspace for Business", "TELUS Health (LifeWorks)"]],
-    ["Data-driven, ML-based provider matching and personalization", ["Lyra Health", "Modern Health", "Calm Business", "Talkspace for Business"]],
-    ["Fast, specialist mental health access", ["Modern Health", "TELUS Health (LifeWorks)"]],
-    ["HR and benefits integration, employer analytics", ["Lyra Health", "Talkspace for Business"]],
+    ["Offers real clinical care: therapy, psychiatry and medication", ["Headspace for Work", "Calm Business", "Talkspace for Business", "TELUS Health (LifeWorks)"]],
+    ["Uses data to match each employee with the right therapist", ["Lyra Health", "Modern Health", "Calm Business", "Talkspace for Business"]],
+    ["Gets employees to a provider quickly", ["Modern Health", "TELUS Health (LifeWorks)"]],
+    ["Gives HR usage reports and plugs into benefits systems", ["Lyra Health", "Talkspace for Business"]],
   ],
   weaknesses: [
-    ["Clinical outcomes and quality: the model gives Lyra the edge", ["Lyra Health"]],
-    ["Narrower than holistic wellbeing platforms", ["Modern Health", "TELUS Health (LifeWorks)"]],
-    ["Global and multilingual reach: rivals named stronger", ["Modern Health", "TELUS Health (LifeWorks)"]],
-    ["Cost and simplicity: rivals framed as better for SMBs and tight budgets", ["Modern Health", "Calm Business", "Talkspace for Business"]],
+    ["Lyra is seen as better on quality of care and results (wins 8 of 10 picks)", ["Lyra Health"]],
+    ["Mental health only; these rivals also cover physical, financial and social wellbeing", ["Modern Health", "TELUS Health (LifeWorks)"]],
+    ["Rivals are seen as better for companies with staff in many countries", ["Modern Health", "TELUS Health (LifeWorks)"]],
+    ["Can be more than a small company needs; rivals seen as simpler or cheaper", ["Modern Health", "Calm Business", "Talkspace for Business"]],
   ],
 };
 
@@ -467,7 +467,7 @@ function renderSW() {
       <h3 style="margin:0 0 12px;color:var(--down);font:700 20px/1.25 var(--sans)">Consistent weaknesses</h3>
       <ul class="how">${SW.weaknesses.map(li).join("")}</ul>
     </div></div>
-    <p class="note">A theme is listed when it recurs across 2+ matchups' open-comparison answers (Lyra's is the one single-matchup exception, kept because it's the only outright loss: 2 of 10 forced picks). Open answers are one run per order, from gpt-4o general knowledge with no browsing — directional, not verified.</p>`;
+    <p class="note">A point is listed when it comes up in 2 or more matchups. The one exception is Lyra, kept because it's the only matchup Spring Health clearly loses. Based on one open answer per name order from gpt-4o with no web browsing, so treat it as a guide, not verified fact.</p>`;
 }
 
 function renderFacts() {
