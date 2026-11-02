@@ -285,7 +285,7 @@ ul.how { margin: 0; padding-left: 20px; color: var(--ink-2); max-width: 62em; } 
     <nav class="nav" aria-label="Tools"><svg width="24" height="24" viewBox="0 0 32 32" aria-hidden="true"><rect x="4" y="17" width="7" height="11" rx="2" fill="#3a547a"/><rect x="12.5" y="10" width="7" height="18" rx="2" fill="#3a547a"/><rect x="21" y="3" width="7" height="25" rx="2" fill="#0aa8bf"/></svg><a href="./">Competitor Radar</a><a href="funnel.html">Funnel Gap Radar</a><a href="headtohead.html" aria-current="page">Head-to-Head Radar</a></nav>
     <span class="stamp">OpenAI API (gpt-4o) · Oct 2026</span>
   </header>
-  <p class="mockbar"><b>Real data, via the OpenAI API.</b> All 60 forced-pick answers (6 rivals × 2 name orders × 5 runs each) and all 12 open-comparison answers came from the OpenAI API (gpt-4o) directly — no browsing, so none of the reasoning below carries citations. It's the model's general knowledge, not a sourced comparison. The headline finding: Spring Health loses outright to Lyra Health and barely edges Modern Health — this isn't a clean sweep.</p>
+  <p class="mockbar"><b>Real data from the OpenAI API (gpt-4o).</b> 60 forced picks (6 rivals × 2 name orders × 5 runs) and 12 open comparisons. No browsing, so no citations: this is the model's general knowledge, not a sourced comparison. Headline: Spring Health clearly loses to Lyra Health and only barely edges Modern Health.</p>
 
   <section id="headline"></section>
 
@@ -506,7 +506,6 @@ function renderComp() {
     </div><div class="cn"><h3>What each side is known for</h3>
       <p class="ph">${esc(CS)}</p>${pts(x.rival)}
       <p class="ph">${YOU}</p>${pts(x.you)}
-      <p class="insight">Based on 2 open answers (one per name order) from gpt-4o, with no web browsing. A guide, not verified fact.</p>
     </div></div>`;
 }
 
