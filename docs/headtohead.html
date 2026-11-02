@@ -377,6 +377,24 @@ const H2H = {
 };
 const RIV = Object.keys(H2H);
 
+// Consistent strengths/weaknesses: themes that recur in 2+ matchups' open-comparison answers (gpt-4o, 1 run per order).
+const SWTAB = "__sw";
+const SW = {
+  strengths: [
+    ["Clinical depth: therapy, psychiatry, medication management", ["Headspace for Work", "Calm Business", "Talkspace for Business", "TELUS Health (LifeWorks)"]],
+    ["Data-driven, ML-based provider matching and personalization", ["Lyra Health", "Modern Health", "Calm Business", "Talkspace for Business"]],
+    ["Fast, specialist mental health access", ["Modern Health", "TELUS Health (LifeWorks)"]],
+    ["HR and benefits integration, employer analytics", ["Lyra Health", "Talkspace for Business"]],
+  ],
+  weaknesses: [
+    ["Clinical outcomes and quality: the model gives Lyra the edge", ["Lyra Health"]],
+    ["Narrower than holistic wellbeing platforms", ["Modern Health", "TELUS Health (LifeWorks)"]],
+    ["Global and multilingual reach: rivals named stronger", ["Modern Health", "TELUS Health (LifeWorks)"]],
+    ["Cost and simplicity: rivals framed as better for SMBs and tight budgets", ["Modern Health", "Calm Business", "Talkspace for Business"]],
+  ],
+};
+
+
 // Claims worth checking, pulled from the open comparisons (no citations — API route, no browsing).
 const FACTS = [
   ["Spring Health positioning", "Consistently described as data-driven/ML-matched, personalized clinical mental health care with fast access to providers", "Spring Health"],
@@ -424,8 +442,9 @@ function renderBoard() {
 
 let CS = "Lyra Health";
 function renderComp() {
-  $("#ctabs").innerHTML = `<span class="tabslabel">${YOU} vs.</span>` + RIV.map((r) => `<button type="button" data-r="${esc(r)}" aria-pressed="${r === CS}">${esc(r)}</button>`).join("");
+  $("#ctabs").innerHTML = `<span class="tabslabel">${YOU} vs.</span>` + RIV.map((r) => `<button type="button" data-r="${esc(r)}" aria-pressed="${r === CS}">${esc(r)}</button>`).join("") + `<span class="tabslabel" aria-hidden="true">|</span><button type="button" data-r="${SWTAB}" aria-pressed="${CS === SWTAB}">Strengths &amp; weaknesses</button>`;
   $("#ctabs").querySelectorAll("button").forEach((b) => b.addEventListener("click", () => { CS = b.dataset.r; renderComp(); }));
+  if (CS === SWTAB) return renderSW();
   const m = H2H[CS], t = total(CS);
   const vtxt = t.blvd > t.rival ? `The model picks ${YOU} in ${t.blvd} of 10 forced-pick runs.` : t.blvd < t.rival ? `The model picks ${esc(CS)} in ${t.rival} of 10 forced-pick runs.` : `Dead even across 10 runs.`;
   $("#cpanel").innerHTML = `<div class="cp"><div>
@@ -437,6 +456,18 @@ function renderComp() {
       <p class="insight">${esc(m.openCites)}</p>
       <p class="insight">This is from one run per order (2 total), not the 10 forced-pick runs above — treat it as a data point, not a trend.</p>
     </div></div>`;
+}
+
+function renderSW() {
+  const li = ([t, rs]) => `<li>${esc(t)} <span class="ty">· ${rs.map(esc).join(", ")}</span></li>`;
+  $("#cpanel").innerHTML = `<div class="cp"><div>
+      <h3 style="margin:0 0 12px;color:var(--up);font:700 20px/1.25 var(--sans)">Consistent strengths</h3>
+      <ul class="how">${SW.strengths.map(li).join("")}</ul>
+    </div><div>
+      <h3 style="margin:0 0 12px;color:var(--down);font:700 20px/1.25 var(--sans)">Consistent weaknesses</h3>
+      <ul class="how">${SW.weaknesses.map(li).join("")}</ul>
+    </div></div>
+    <p class="note">A theme is listed when it recurs across 2+ matchups' open-comparison answers (Lyra's is the one single-matchup exception, kept because it's the only outright loss: 2 of 10 forced picks). Open answers are one run per order, from gpt-4o general knowledge with no browsing — directional, not verified.</p>`;
 }
 
 function renderFacts() {
